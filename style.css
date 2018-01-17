@@ -1,0 +1,149 @@
+body {
+  min-height: 2000px;
+  margin: auto;
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+h1 {
+	color: #692b0f !important;
+	padding-top: 20px;
+	font-size: 49px !important;
+	font-weight: 700;
+	margin-bottom: 0px !important;
+}
+
+h2 {
+	margin-top: 0px !important;
+}
+
+p {
+	max-width: 400px;
+	font-size: 16px;
+    color: #333;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+div.col-sm-4 {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+#page1 {
+	margin-top: 30px;
+	padding-top: 30px;
+	min-height: 600px;
+}
+
+#page3 {
+	margin-top: 30px;
+	padding-top: 30px;
+}
+
+.container-header {
+	padding: 100px;
+	margin: 0px;
+	min-height: 500px;
+	background-image: url('img/coffee-ring-5.png');
+	/*float: left;*/
+	width: 100%;
+	box-shadow: 0px 3px #692b0f;
+}
+
+.container-body {
+	padding: 100px;
+	margin-bottom: 50px;
+	margin: 0px;
+	min-height: 500px;
+	/*float: left;*/
+	width: 100%;
+	box-shadow: 0px 3px #692b0f;
+}
+
+.container-contact {
+	padding: 100px;
+	margin: 0px;
+	min-height: 400px;
+	/*background-color: #886647;*/
+	/*float: left;*/
+	width: 100%;
+}
+
+.card {
+	border: 1px solid #bbb;
+	padding: 20px;
+}
+
+.card-container {
+	/*padding-bottom: 40px;*/
+	/*background-color: red;*/
+}
+
+img.card-img-top {
+	width: 100%;
+}
+
+footer {
+	background-color: #692b0f;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+p.footer {
+	color: #fff !important;
+}
+
+a.footer {
+	color: #fff;
+	font-weight: 700 !important;
+	font-size: 16px;
+}
+
+/*a {
+	color: #fff;
+	background-color: #886647;
+	border: 1px solid #705134;
+}
+
+a:hover {
+	color: #fff;
+	background-color: #886647;
+	border: 1px solid #705134;
+}*/
+
+.btn-default {
+	text-align: center;
+	color: #fff;
+	background-color: #692b0f;
+	border: 1px solid #705134;
+/*	padding: 12px;
+	box-shadow: -2px 2px 0px #ff00ad;
+	transform: scale(1, 1);
+  	transition: transform 0.20s ease;*/
+}
+
+.btn-default:hover {
+	text-align: center;
+	color: #fff;
+	background-color: #886647;
+	border: 1px solid #705134;
+/*	padding: 12px;
+	box-shadow: -2px 2px 0px #ff00ad;
+	transform: scale(1.1, 1.1);*/
+/*	text-decoration: underline;*/
+/*	opacity: 0.2;*/
+}
+
+/*.btn-primary {
+	box-shadow: none;
+	color: #fff !important;
+	background-color: #886647 !important;
+	border-color: #705134 !important;
+	box-shadow:none !important;
+
+}*/
+
+
+
