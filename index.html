@@ -154,13 +154,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
     <script>
-    $('.smooth').on('click', function() {
-        $.smoothScroll({
-            scrollElement: $('body'),
-            scrollTarget: '#' + this.id
-        });
+    // $('.smooth').on('click', function() {
+    //     $.smoothScroll({
+    //         scrollElement: $('body'),
+    //         scrollTarget: '#' + this.id
+    //     });
         
-    return false;
+//     return false;
+// });
+
+$('a[href^="#"]').on('click', function(event) {
+    var target = $(this.getAttribute('href'));
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top - 110
+        }, 0);
+    }
 });
 </script>
   </body>
