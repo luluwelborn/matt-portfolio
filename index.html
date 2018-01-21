@@ -49,7 +49,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="#work">Work</a></li>
             <!-- <li><a href="#about">About</a></li> -->
             <li><a href="#contact">Contact</a></li>
@@ -125,7 +125,8 @@
       <a id="contact" class="smooth"></a>
       <h1>CONTACT ME</h1>
       <p>Need a website or help on an upcoming project?</p>
-      <a href="mailto:mattsteffey@gmail.com">
+      <p>matthew.steffey@gmail.com</p>
+      <a href="mailto:matt.steffey@gmail.com">
         <button type="button" class="btn btn-default">EMAIL ME</button>
       </a>
     </div>
@@ -169,7 +170,7 @@ $('a[href^="#"]').on('click', function(event) {
         event.preventDefault();
         $('html, body').stop().animate({
             scrollTop: target.offset().top - 110
-        }, 0);
+        }, 300);
     }
 });
 </script>

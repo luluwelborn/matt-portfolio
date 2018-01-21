@@ -48,6 +48,7 @@ div.col-sm-4 {
 	/*float: left;*/
 	width: 100%;
 	box-shadow: 0px 1px #bf8b66;
+	background-repeat: no-repeat;
 }
 
 .container-body {
